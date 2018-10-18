@@ -1,10 +1,3 @@
-var boton1 = document.querySelector("#boton1");
-var boton2 = document.querySelector("#boton2");
-var gota = document.querySelector("#gota");
-var keyline = document.querySelector("#keyline");
-var tractor = document.querySelector("#tractor");
-var zanahorias = document.querySelector("#zanahorias");
-
 function hide(element) {
   element.style.display = "none";
 }
@@ -14,6 +7,13 @@ function show(element) {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
+  var boton1 = document.querySelector("#boton1");
+  var boton2 = document.querySelector("#boton2");
+  var gota = document.querySelector("#gota");
+  var keyline = document.querySelector("#keyline");
+  var tractor = document.querySelector("#tractor");
+  var zanahorias = document.querySelector("#zanahorias");
+
   hide(zanahorias);
   boton1.click();
   show(zanahorias);
