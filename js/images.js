@@ -15,15 +15,19 @@ document.addEventListener("DOMContentLoaded", function() {
   var zanahorias = document.querySelector("#zanahorias");
 
   hide(zanahorias);
-  boton1.click();
-  show(zanahorias);
+  boton1.addEventListener("click", function() {
+    show(zanahorias);
+  });
   hide(gota);
-  boton2.click();
-  show(gota);
+  boton2.addEventListener("click", function() {
+    show(gota);
+  });
   hide(tractor);
-  boton2.click();
-  show(tractor);
+  boton2.addEventListener("click", function() {
+    show(tractor);
+  });
   hide(keyline);
-  boton2.click();
-  show(keyline);
+  boton2.addEventListener("click", function() {
+    show(keyline);
+  });
 });
