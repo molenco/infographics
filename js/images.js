@@ -7,7 +7,6 @@
         $('#boton2').click(function() {
             $('#gota').show();
    });
-      $('#tractor').hide();
         $('#boton2').click(function() {
             $('#tractor').show();
    });
