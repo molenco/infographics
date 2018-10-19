@@ -1,26 +1,18 @@
-function hide(element) {
-  element.style.display = "none";
-}
-
-function show(element) {
-  element.style.display = "";
-}
-
 document.addEventListener("DOMContentLoaded", function() {
-  hide(zanahorias);
+  zanahorias.style.display = "none";
   boton1.addEventListener("click", function() {
-    show(zanahorias);
+    zanahorias.style.display = "";
   });
-  hide(gota);
+  gota.style.display = "none";
   boton2.addEventListener("click", function() {
-    show(gota);
+    gota.style.display = "";
   });
-  hide(tractor);
+  tractor.style.display = "none";
   boton2.addEventListener("click", function() {
-    show(tractor);
+    tractor.style.display = "";
   });
-  hide(keyline);
+  keyline.style.display = "none";
   boton2.addEventListener("click", function() {
-    show(keyline);
+    keyline.style.display = "";
   });
 });
