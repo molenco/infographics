@@ -11,8 +11,4 @@
         $('#boton2').click(function() {
             $('#tractor').show();
    });
-      $('#keyline').hide();
-        $('#boton2').click(function() {
-            $('#keyline').show();
-   });
  });
