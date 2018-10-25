@@ -1,18 +1,16 @@
- $(document).ready(function() {
-    $('#zanahorias').hide();
-        $('#boton1').click(function() {
-            $('#zanahorias').show();
-   });
-     $('#gota').hide();
-        $('#boton2').click(function() {
-            $('#gota').show();
-   });
-      $('#tractor').hide();
-        $('#boton2').click(function() {
-            $('#tractor').show();
-   });
-      $('#keyline').hide();
-        $('#boton2').click(function() {
-            $('#keyline').show();
-   });
- });
+document.addEventListener("DOMContentLoaded", function() {
+  zanahorias.style.display = "none";
+  gota.style.display = "none";
+  tractor.style.display = "none";
+  keyline.style.display = "none";
+
+  boton1.addEventListener("click", function() {
+    zanahorias.style.display = "";
+  });
+
+  boton2.addEventListener("click", function() {
+    gota.style.display = "";
+    tractor.style.display = "";
+    keyline.style.display = "";
+  });
+});
